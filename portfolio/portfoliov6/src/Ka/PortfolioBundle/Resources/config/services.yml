@@ -1,0 +1,7 @@
+parameters:
+#    ka_portfolio.example.class: Ka\PortfolioBundle\Example
+
+services:
+#    ka_portfolio.example:
+#        class: %ka_portfolio.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

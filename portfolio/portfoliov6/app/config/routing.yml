@@ -1,0 +1,4 @@
+ka_portfolio:
+    resource: "@KaPortfolioBundle/Resources/config/routing.yml"
+    prefix:   /
+

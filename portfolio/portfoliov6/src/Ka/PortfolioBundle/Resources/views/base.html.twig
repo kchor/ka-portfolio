@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Karine Chor</title>
+    <link rel="stylesheet" href="">
+  </head>
+  <body>
+    {% block body %}
+    <div id="page">
+      <div id="header">
+        <div id="header-left">
+          <h1>Karine Chor LOGO</h1>
+        </div>
+        <div id="header-right">
+          <ul id="menu">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Références</a></il>
+            <li><a href="#"><abbr title="Curriculum Vitae">CV</abbr></a></il>
+            <li><a href="#">Contact</a></il>
+            <li><a href="#">Liens</a></il>
+          </ul>
+        </div>
+      </div>
+      <div id="content">
+        {% block content %}
+        {% endblock %}
+      </div>
+      <div id="footer">
+        <div><p>Karine Chor Portfolio utilisant le framework Symfony 2.</p><p>Réseaux sociaux</p></div>
+      </div>
+    </div>
+    {% endblock %}
+  </body>
+</html>
