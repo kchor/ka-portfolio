@@ -1,3 +1,19 @@
-_homepage:
+kaportfolio_homepage:
     pattern:  /
-    defaults: { _controller: KaPortfolioBundle:Homepage:index }
+    defaults: { _controller: KaPortfolioBundle:Portfolio:index }
+
+kaportfolio_work:
+    pattern:  /work
+    defaults: { _controller: KaPortfolioBundle:Portfolio:work }
+
+kaportfolio_cv:
+    pattern:  /cv
+    defaults: { _controller: KaPortfolioBundle:Portfolio:cv }
+
+kaportfolio_contact:
+    pattern:  /contact
+    defaults: { _controller: KaPortfolioBundle:Portfolio:contact }
+
+kaportfolio_link:
+    pattern:  /links
+    defaults: { _controller: KaPortfolioBundle:Portfolio:link }
