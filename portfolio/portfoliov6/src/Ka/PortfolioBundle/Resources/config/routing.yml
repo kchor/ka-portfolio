@@ -17,3 +17,11 @@ kaportfolio_contact:
 kaportfolio_link:
     pattern:  /links
     defaults: { _controller: KaPortfolioBundle:Portfolio:link }
+
+kaportfolio_add_project:
+    pattern:  /add-project
+    defaults: { _controller: KaPortfolioBundle:Portfolio:addProject }
+
+kaportfolio_add_techno:
+    pattern:  /add-technology
+    defaults: { _controller: KaPortfolioBundle:Portfolio:addTechnology }

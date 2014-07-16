@@ -1,5 +1,17 @@
 {% extends 'KaPortfolioBundle::base.html.twig' %}
 
- {% block content %}
-     references
- {% endblock %}
+{% block content %}
+<div>
+  <h2>Références</h2>
+  <ul>
+  {% for value in projects %}
+    <li>
+      {{value.name}}
+      {{value.shortDescription}}
+      {{value.link}}
+    </li>
+  {% endfor %}
+  </ul>
+</div>
+
+{% endblock %}
